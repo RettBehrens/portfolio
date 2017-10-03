@@ -68,16 +68,4 @@
         }
     });
 
-    $('.portfolio-box').on("touchstart", function(e) {
-        var div = $(this);
-        if (div.hasClass('hasHover')) {
-            return true;
-        } else {
-            div.addClass("hasHover");
-            $('.portfolio-box').not(this).removeClass("hasHover");
-            e.preventDefault();
-            return false;
-        }
-    });
-
 })(jQuery); // End of use strict
