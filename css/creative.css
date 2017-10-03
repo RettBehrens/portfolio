@@ -237,7 +237,7 @@ header.masthead {
         text-transform: uppercase; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 18px; }
-  .portfolio-box:hover .portfolio-box-caption {
+  .portfolio-box:hover .portfolio-box-caption .portfolio-box.hasHover {
     opacity: 1; }
   .portfolio-box:focus {
     outline: none; }
